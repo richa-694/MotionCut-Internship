@@ -3,23 +3,23 @@
 --------
 
 ##Technologies used 
-HTML
-CSS 
+HTML,
+CSS, 
 JS
 --------
 
 ##tools 
-VS Code
+VS Code,
 GitHub
 --------
 
 ## Features
---------
 * Responsive design
 * Navigation menu
+------------
 
   ## Contributing
-------------
+
 Contributions are welcome! Please fork the repository, make changes, and submit a pull request.
 --------
 
