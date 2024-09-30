@@ -1,3 +1,47 @@
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: #1287A5;
+    position: sticky;
+    top: 0;
+}
+
+header .logo {
+    color: #ffffff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav {
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 5px 20px;
+    margin: 0px 5px;
+    color: #ffffff;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #4aabc4;
+    font-weight: bold;
+}
+
+
 .slider {
     position: relative;
     width: 80%;
