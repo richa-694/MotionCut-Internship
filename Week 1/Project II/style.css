@@ -10,14 +10,15 @@ body,html {
 .bg{
     position: absolute;
     top: 25;
+    opacity: 0.8;
 }
 .container {
-    opacity: 3px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 300px;
+    height: 300px;
     z-index: 2;
 }
 .container h2 {
@@ -27,7 +28,7 @@ body,html {
 
 .container input[type="text"],
 .container input[type="password"] {
-    width: 100%;
+    width: 280px;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #5f80a0;
@@ -52,8 +53,11 @@ body,html {
 .container a {
     color: #8B0000;
     text-decoration: none;
-    margin: 10px;
-    backdrop-filter: blur(10px);
+    margin: 29px;
+}
+
+.container a:hover {
+    text-decoration: underline
 }
 
 .container a:hover {
@@ -148,16 +152,16 @@ body,html {
 
 .tree.front {
     background-image: url(/images/trees.png);
-    left: 10%;
+    /* left: 10%;
     bottom: 0;
-    z-index: 0;
+    z-index: 0; */
 }
 
 .tree.back {
     background-image: url(/images/bg.jpg);
-    right: 10%;
+    /* right: 10%;
     bottom: 0;
     filter: blur(5px);
     opacity: 0.7;
-    z-index: 0;
+    z-index: 0; */
 }
